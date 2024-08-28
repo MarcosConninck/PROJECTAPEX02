@@ -6,4 +6,6 @@
   },
   "workbench.colorTheme": "Dracula Theme",
   "workbench.iconTheme": "material-icon-theme",
+  "editor.detectIndentation": true,
+  "editor.tabSize": 4,
 }

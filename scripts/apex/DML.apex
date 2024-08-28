@@ -100,17 +100,17 @@
 //                               WHERE Name = 'SFDC account'];
 // delete queriedAccounts;
 
-public class AccountHandler {
-    public static Account insertNewAccount(String accountName) {
-        Account newAccount = new Account();
-        try {
-            newAccount.Name = accountName;
-            insert newAccount;
-            return newAccount;
+// public class AccountHandler {
+//     public static Account insertNewAccount(String accountName) {
+//         Account newAccount = new Account();
+//         try {
+//             newAccount.Name = accountName;
+//             insert newAccount;
+//             return newAccount;
         
-        } catch (DmlException e) {
-            // e.getErrors();
-            return null;
-        }
-    }
-}
+//         } catch (DmlException e) {
+//             // e.getErrors();
+//             return null;
+//         }
+//     }
+// }
